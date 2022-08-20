@@ -28,7 +28,7 @@ let track_list = [
   },
   {
     name: "bit-alik buterin",
-    artist: "bb",
+    artist: "Los Memes",
     image: portada,
     path: ""
   },

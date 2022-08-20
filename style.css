@@ -2,6 +2,7 @@ body {
     background-image: url("https://i.ibb.co/0YWtyQG/heavenly-guardian-angel-concept-sky-banner-beautiful-angelic-wings-bright-white-light-floating-pink.jpg");
     background-repeat: no-repeat;
     background-position: top;
+    background-size: cover;
     }
     .Musicashila {
         display:flex;
@@ -16,10 +17,15 @@ body {
 
     }
     .logo {
-    background-image: url("https://i.ibb.co/55vhH3Y/descarga.png");
-    background-size: cover;
-    background-position: bottom;
-    position: absolute;
+        margin: 25px;
+        height: 155px;
+        width: 155px;
+        background-image: url("https://i.ibb.co/nP8p2FN/logo5.png");
+        background-size: 200%;
+        background-position: center;
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 137px;
 
     }
     .lenslogo {
@@ -55,7 +61,7 @@ body {
     transform: scale(0.5);
     margin: auto;
     position: absolute;
-    margin-top: -160px;
+    margin-top: -150px;
     }
     
     .details {
@@ -68,8 +74,8 @@ body {
     
     .track-art {
     margin: 25px;
-    width: 153px;
-    height: 153px;
+    width: 170px;
+    height: 170px;
     border-radius: 15%;
     }
     
@@ -95,10 +101,10 @@ body {
     .prev-track,
     .next-track {
     padding: 25px;
-    opacity: 0.8;
+    opacity: 0.6;
     
     /* Smoothly transition the opacity */
-    transition: opacity .2s;
+    transition: opacity .4s;
     }
     
     /* Change the opacity when mouse is hovered */
@@ -145,7 +151,7 @@ body {
     /* Change the opacity when mouse is hovered */
     .seek_slider:hover,
     .volume_slider:hover {
-    opacity: 1.0;
+    opacity: 3.0;
     }
     
     .seek_slider {
