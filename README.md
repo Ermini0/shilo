@@ -1,4 +1,7 @@
 # Musica Shila
+Full length presentation of the project:
+https://docs.google.com/presentation/d/1EcSjp7ygUaabsoRZfqLgOA80Es1ye81GpAE5-2UGHyw/edit#slide=id.g1464a358a32_8_1
+
 Musica Shila is a web3 music/media streaming platform, focused on giving the artist the freedom to control their content.
 
 It’s everything that makes streaming media great, without the money-hungry middlemen that drain aspiring independent artists.
