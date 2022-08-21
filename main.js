@@ -1,6 +1,7 @@
 let track_art = document.querySelector(".track-art");
 let track_name = document.querySelector(".track-name");
 let track_artist = document.querySelector(".track-artist");
+let listen = document.querySelector("")
 
 let playpause_btn = document.querySelector(".playpause-track");
 let next_btn = document.querySelector(".next-track");
@@ -27,7 +28,7 @@ let track_list = [
     path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/WFMU/Broke_For_Free/Directionless_EP/Broke_For_Free_-_01_-_Night_Owl.mp3"
   },
   {
-    name: "bit-alik buterin",
+    name: "bitalik buterin",
     artist: "Los Memes",
     image: portada,
     path: ""

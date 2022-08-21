@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+    body, html {
+      height: 100%;
+      line-height: 1.8;
+    }
+
+    /* Full height image header */
+    .bgimg-1 {
+      background: url(https://i.ibb.co/6txfVGS/HD-wallpaper-green-skull-black-bones-dark-day-of-the-dead-death-halloween-scary-skeleton-skulls.jpg);
+      background-position: center;
+      background-size: cover;
+      min-height: 100%;
+    }
+
+    .w3-bar .w3-button {
+      padding: 16px;
+    }
+    </style>
+  </head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-card" id="myNavbar">
+    <div class="imagen"></div>
+    <a href="lens.xyz" class="w3-bar-item w3-button w3-wide">
+       <img alt="Qries" src="https://i.ibb.co/X8qJc90/twitter-OG.png" style="height:80px;width:80px;border-radius:20px">
+    </a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-automobile"></i> Home</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-music"></i> Library</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Profile</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Info</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Musica Shila</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Shut the fuck up and listen to this dope shit!</span><br>
+    <span class="w3-large">The only decentralized music streaming platform</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Listen to music of lens profiles now!</a></p>
+  </div> 
+  <div class="reproductor">
+    <div class="player">
+    
+        <!-- Define the section for displaying details -->
+        <div class="details">
+        <div class="listen">Shut the fuck up and listen to this dope shit!</div>
+        <div class="track-art">
+            <img src="https://lamenteesmaravillosa.com/wp-content/uploads/2021/09/chica-lobo.jpeg" alt="" style="height: inherit;width: inherit;border-radius: 15%;">
+        </div>
+        <div class="track-name">Track Name</div>
+        <div class="track-artist">Track Artist</div>
+        </div>
+    
+        <!-- Define the section for displaying track buttons -->
+        <div class="buttons">
+        <div class="prev-track" onclick="prevTrack()">
+            <i class="fa fa-step-backward fa-2x"></i>
+        </div>
+        <div class="playpause-track" onclick="playpauseTrack()">
+            <i class="fa fa-play-circle fa-5x"></i>
+        </div>
+        <div class="next-track" onclick="nextTrack()">
+            <i class="fa fa-step-forward fa-2x"></i>
+        </div>
+        </div>
+    
+        <!-- Define the section for displaying the seek slider-->
+        <div class="slider_container">
+        <div class="current-time">00:00</div>
+        <input type="range" min="1" max="100"
+            value="0" class="seek_slider" onchange="seekTo()">
+        <div class="total-duration">00:00</div>
+        </div>
+    
+        <!-- Define the section for displaying the volume slider-->
+        <div class="slider_container">
+        <i class="fa fa-volume-down"></i>
+        <input type="range" min="1" max="100"
+            value="99" class="volume_slider" onchange="setVolume()">
+        <i class="fa fa-volume-up"></i>
+        </div>
+    </div>
+    </div>
+    
+</header>
+<script src="main.js"></script>
+</body>
+</html>
