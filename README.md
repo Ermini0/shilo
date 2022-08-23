@@ -31,3 +31,5 @@ We (Erminio and Adriel) are not very experienced programmers, even less experien
 We in fact play in a music group, Necromorfo, which has been active for almost 6 years. As we’ve grown with the band, we realized many harsh truths about the music industry. How they treat artists, money-hungry managers with no morals, and streaming platforms giving us crumbs as payment only per stream, only by soulless numbers. 
 
 This project is an idea of how with lens protocol and web3 we can change the media and music industry forever, and really we desperately want to be a part of it.
+
+Thanks.
